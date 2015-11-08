@@ -33,7 +33,15 @@
                                 </state>
                                 <connections>
                                     <action selector="login:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3xL-Gj-ne5"/>
-                                    <segue destination="u1a-IU-gIn" kind="modal" identifier="loginUser" id="Tqn-K3-6Gf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rib-xl-Mk6">
+                                <rect key="frame" x="137" y="137" width="55" height="30"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="signUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="98q-XC-4Fa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -42,6 +50,7 @@
                     <connections>
                         <outlet property="emailTextField" destination="3Jm-EF-txH" id="KuF-HF-bxE"/>
                         <outlet property="passwordTextField" destination="Qac-Oc-1zK" id="ceo-rH-UlP"/>
+                        <segue destination="u1a-IU-gIn" kind="modal" identifier="loginUser" id="uuG-jG-SMq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -69,6 +78,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="email" destination="oNf-st-trN" id="EZJ-9X-g4O"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wze-6L-iWp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

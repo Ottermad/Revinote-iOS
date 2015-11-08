@@ -14,6 +14,7 @@
 		84A6FB101BEFA128005A86CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A6FB0E1BEFA128005A86CF /* LaunchScreen.xib */; };
 		84A6FB1C1BEFA128005A86CF /* RevinoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6FB1B1BEFA128005A86CF /* RevinoteTests.swift */; };
 		84B046B91BEFAD610033AF77 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B046B81BEFAD610033AF77 /* HomeViewController.swift */; };
+		84B046BB1BEFBCAA0033AF77 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B046BA1BEFBCAA0033AF77 /* User.swift */; };
 		E3A21EA3F2940C5DFEC1A3F1 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD60B1669F2C5469525E3A4 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		84A6FB1A1BEFA128005A86CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84A6FB1B1BEFA128005A86CF /* RevinoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevinoteTests.swift; sourceTree = "<group>"; };
 		84B046B81BEFAD610033AF77 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		84B046BA1BEFBCAA0033AF77 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BCD60B1669F2C5469525E3A4 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7DCC42C4C9EBAE240BE6E1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +103,7 @@
 				84A6FB0E1BEFA128005A86CF /* LaunchScreen.xib */,
 				84A6FB031BEFA128005A86CF /* Supporting Files */,
 				84B046B81BEFAD610033AF77 /* HomeViewController.swift */,
+				84B046BA1BEFBCAA0033AF77 /* User.swift */,
 			);
 			path = Revinote;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B046BB1BEFBCAA0033AF77 /* User.swift in Sources */,
 				84A6FB081BEFA128005A86CF /* LoginViewController.swift in Sources */,
 				84A6FB061BEFA128005A86CF /* AppDelegate.swift in Sources */,
 				84B046B91BEFAD610033AF77 /* HomeViewController.swift in Sources */,

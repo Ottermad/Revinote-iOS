@@ -9,11 +9,13 @@
 import UIKit
 
 class HomeViewController: UIViewController {
+    var firebaseUser : User?
 
+    @IBOutlet var email: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        email.text = firebaseUser?.email
     }
 
     override func didReceiveMemoryWarning() {
